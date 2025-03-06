@@ -3,7 +3,7 @@
 This repository contains a Jupyter Notebook where I document my journey into understanding LangGraph—a framework for building stateful, multi-agent applications with language models. The notebook covers key concepts, beginner-level code examples, and practical experiments.
 
 <details>
-<summary>Table of Contents</summary>
+Table of Contents
 Overview
 [Part 1: Getting Started]
 [Part 2: Adding Tools]
