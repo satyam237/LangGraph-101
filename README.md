@@ -101,4 +101,4 @@ pip install -U langgraph langsmith langchain_anthropic tavily-python
 
 ## License
 
-This project is licensed under the terms of the [MIT license].
+This project is licensed under the terms of the [MIT license](https://github.com/satyam237/LangGraph-Concepts-Notebook/tree/main?tab=MIT-1-ov-file).
