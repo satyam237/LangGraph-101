@@ -77,7 +77,7 @@ cd /path/to/your/directory
 
 Clone the Repository using https:
 ```bash
-git clone https://github.com/your_username/your_repo_name.git
+git clone https://github.com/satyam237/LangGraph-Concepts-Notebook.git
 ```
 
 Enter the Cloned Repository
