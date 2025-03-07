@@ -1,4 +1,6 @@
-# LangGraph Concepts & Beginner Codes Notebook
+<br>
+
+# Getting Started with LangGraph: Concepts & Code
 
 This repository contains a Jupyter Notebook documenting my journey into LangGraph—a framework for building stateful, multi-agent applications with language models. It includes key concepts, beginner-level code examples, and practical experiments, utilizing **Groq's Free API** for various available models.
 
