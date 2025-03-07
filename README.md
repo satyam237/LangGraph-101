@@ -77,10 +77,10 @@ cd your_repo_name
 
 2. Install Required Packages:
 
-  Make sure you have Python installed, then run:
+  Make sure you have the requirements.txt and Python 3.10 or above installed, then run:
 
 ```bash
-pip install -U langgraph langsmith langchain_anthropic tavily-python
+pip install -r requirements.txt
 ```
 
 3. Set Up API Keys:
