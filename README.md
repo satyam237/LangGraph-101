@@ -68,16 +68,26 @@ For more detailed information and official guidance, please refer to the [LangGr
 <br>
 
 ## **How to Run**
-1 .Clone the Repository:
+1. Clone the Repository:
 
+Navigate to the Desired Directory
+```bash
+cd /path/to/your/directory
+```
+
+Clone the Repository using https:
 ```bash
 git clone https://github.com/your_username/your_repo_name.git
-cd your_repo_name
+```
+
+Enter the Cloned Repository
+```bash
+cd repo
 ```
 
 2. Install Required Packages:
 
-  Make sure you have the requirements.txt and Python 3.10 or above installed, then run:
+  Make sure you have the `requirements.txt` and `Python3.10` or above installed, then run:
 
 ```bash
 pip install -r requirements.txt
@@ -85,7 +95,21 @@ pip install -r requirements.txt
 
 3. Set Up API Keys:
 
-  The notebook requires API keys (e.g., for Anthropic and Tavily). The code includes a helper function to prompt for these if they are not already set in your environment.
+  The notebook requires API keys (e.g., for Groq/Anthropic and Tavily). The code includes a helper function to prompt for these if they are not already set in your environment.
+  Create an account on each of these website and generate the API key, and store it in `.env` file, and use `loadenv()` to call them, as given in the notebook:
+  
+  ```bash
+  GROQ_API_KEY="YOUR_API_KEY_HERE"
+  TAVILY_API_KEY="TAVILY_API_KEY_HERE"
+  ```
+  
+  or you can also store them as environment variable on the local machine itself:
+
+  ```bash
+  export GROQ_API_KEY="API_KEY"
+  ```
+  same way,do for all other keys, and use the function at the very start to call these keys. (*this function also helps store the key as we go without storing it anywhere.*)
+  
 
 4. Run the Notebook:
 
