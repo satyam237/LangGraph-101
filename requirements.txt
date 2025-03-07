@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchainhub
+langchain_community
+ipython
+langchain_groq
+tavily-python
+groq
+python-dotenv
+langchain-core
+typing_extensions
