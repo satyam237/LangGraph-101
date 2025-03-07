@@ -95,3 +95,10 @@ pip install -U langgraph langsmith langchain_anthropic tavily-python
 
 ## **Contributing**
  Contributions, feedback, and suggestions are welcome! Please feel free to open an issue or submit a pull request.
+
+<br>
+
+
+## License
+
+This project is licensed under the terms of the [MIT license].
